@@ -105,14 +105,27 @@ main .sub .btn-sub {
 } 
 main .sub .btn-sub:hover {
     background-color: #d3d1d1a0;
-    border: 0.5px solid black;
+    border: 0.5px solid rgba(0, 0, 0, 0.21);
 }
 
-
+/* CARDS ADD */
 main .card-caixa {
     display: flex;
     flex-wrap: wrap;
     overflow-y: scroll;
-    height: 100px;
+    height: 200px;
+    border: 1px solid black;
 }
 
+main .card-caixa .card1 {
+    width: 90%;
+}
+
+.card-caixa .cdx .cards{
+    width: 100%;
+    height: 50%;
+    display: block;
+    border: 1px solid black;
+    background-color: aqua;
+    margin-top:5px ;
+}
