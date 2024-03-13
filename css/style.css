@@ -91,7 +91,7 @@ main .container .sub ul  {
 
 }
 
-main .sub .btn-sub {
+.sub .btn-sub {
     margin: 2px;
     width: 120px;
     height: 40px;
@@ -103,29 +103,7 @@ main .sub .btn-sub {
     font-weight: 400;
     color: black;
 } 
-main .sub .btn-sub:hover {
+.sub .btn-sub:hover {
     background-color: #d3d1d1a0;
     border: 0.5px solid rgba(0, 0, 0, 0.21);
-}
-
-/* CARDS ADD */
-main .card-caixa {
-    display: flex;
-    flex-wrap: wrap;
-    overflow-y: scroll;
-    height: 200px;
-    border: 1px solid black;
-}
-
-main .card-caixa .card1 {
-    width: 90%;
-}
-
-.card-caixa .cdx .cards{
-    width: 100%;
-    height: 50%;
-    display: block;
-    border: 1px solid black;
-   
-    margin-top:5px ;
 }
