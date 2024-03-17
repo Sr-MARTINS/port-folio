@@ -91,7 +91,7 @@ main .container .sub ul  {
 
 }
 
-.sub .btn-sub {
+main .sub .btn-sub {
     margin: 2px;
     width: 120px;
     height: 40px;
@@ -103,7 +103,7 @@ main .container .sub ul  {
     font-weight: 400;
     color: black;
 } 
-.sub .btn-sub:hover {
+main .sub .btn-sub:hover {
     background-color: #d3d1d1a0;
     border: 0.5px solid rgba(0, 0, 0, 0.21);
 }
